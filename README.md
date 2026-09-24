@@ -1,2 +1,6 @@
 # 2622500047-PWD-SI1J-GASAL2627O
-Respository Latihan Pertemuan-1 sampai dengan Pertemuan-16 Matakuliah Pemrograman Web Dasar Kelompok
+Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16<br> 
+Matakuliah Pemrograman Web Dasar<br> 
+Kelompok SI1J<br> 
+Tahun Ajaran 2026/2027 Semester Gasal<br><br>
+![Logo ISBAL](logoisbal.png) 
