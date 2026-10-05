@@ -11,9 +11,9 @@
 
 ## Pengujian GET dan POST 
 
-- Hasil pengujian GET: [file:///c%3A/laragon/www/2622500047-PWD-SI1J-2627O/2622500047-PWD-SI1J-2627/pertemuan-03/index.html?nama=muhammad+rifky&email=muhammadrifkybangka7%40gmail.com&semester=1&tanggal=2026-10-05&jenis_pesan=pertanyaan&minat=HTML&minat=CSS&prodi=SI&pesan=tidak+ada] 
-- Contoh URL encoding yang ditemukan: [tuliskan] 
-- Hasil pengujian POST: [tuliskan]
+- Hasil pengujian GET: [https://2622500047-ship-it.github.io/2622500047-PWD-SI1J-2627/pertemuan-03/index.html?nama=muhammad+rifky&email=muhammadrifkybangka7%40gmail.com&semester=1&tanggal=2026-10-05&jenis_pesan=saran&minat=HTML&prodi=SI&pesan=trima+kasih]
+- Contoh URL encoding yang ditemukan: [nama=muhammad+rifky&email=muhammadrifkybangka7%40gmail.com&semester=1&tanggal=2026-10-05&jenis_pesan=saran&minat=HTML&prodi=SI&pesan=trima+kasih] 
+- Hasil pengujian POST: [github pages menolak permintaan post atau menampilkan respon galat karena tidak tersedia pemrosesan sisi peladen yaitu berisi 405 not allowed]
 
 ## CSS Dasar 
 - Selector elemen: [digunakan untuk menentukan elemen HTML yang akan diberikan aturan atau tampilan tertentu.] 
@@ -29,4 +29,4 @@
 
 ## GitHub Pages 
 
-URL: [tempel URL GitHub Pages Pertemuan 3]
+URL: [https://2622500047-ship-it.github.io/2622500047-PWD-SI1J-2627/pertemuan-03/]
