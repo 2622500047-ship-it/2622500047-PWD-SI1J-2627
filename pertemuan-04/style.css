@@ -2,12 +2,47 @@
 box-sizing: border-box;
 }
 
+body {
+margin: 0;
+padding: 12px;
+font-family: Arial, sans-serif;
+color: #111827;
+background-color: #eef2f7;
+}
+/* Header */
+header {
+background-color: #003366;
+color: #ffffff;
+padding: 20px;
+margin-bottom: 20px;
+border: 1px solid #00264d;
+}
+header h1 {
+margin: 0 0 16px;
+font-size: 28px;
+}
+section {
+width: 100%;
+}
+
+
 #home {
 background-color: #ffffff;
 border: 1px solid #d0d7de;
 padding: 20px;
 margin: 0;
 }
+
+#about {
+margin: 0;
+}
+#about h2 {
+margin-top: 0;
+}
+#about p {
+line-height: 1.5;
+}
+
 
 #about { background-color: #ffffff;
              border: 1px solid #d0d7de; 
