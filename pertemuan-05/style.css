@@ -220,6 +220,7 @@ footer p {
     nav { 
         margin-top: 16px; 
     } 
+    
     nav ul { 
         flex-direction: row; 
         justify-content: flex-start; 
@@ -239,7 +240,7 @@ footer p {
         display: flex; 
         flex-direction: row; 
     } 
-    
+
     .nav-toggle { 
         display: none; 
     } 
