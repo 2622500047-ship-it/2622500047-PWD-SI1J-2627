@@ -37,7 +37,8 @@ contactForm.addEventListener("submit", (event) => {
     if (!emailPattern.test(email)) { 
         formFeedback.textContent = "Masukkan alamat email yang valid.";
          return; 
-    } 
+    }
+
     const semester = Number(semesterInput.value); 
     if (semesterInput.value === "" || semester < 1 || semester > 14) { 
         formFeedback.textContent = "Semester harus diisi dengan angka 1 sampai 14."; 
@@ -55,7 +56,6 @@ contactForm.addEventListener("submit", (event) => {
         formFeedback.textContent = "Pilih jenis pesan."; 
         return; 
     } 
-    
     
     const topikDipilih = document.querySelectorAll('input[name="minat"]:checked'); 
     if (topikDipilih.length === 0) { 

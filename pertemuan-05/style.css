@@ -1,6 +1,8 @@
 * { 
     box-sizing: border-box; 
-} body { 
+}
+
+body { 
     margin: 0; 
     padding: 12px; 
     font-family: Arial, sans-serif; 
@@ -14,23 +16,29 @@ header {
     padding: 20px; 
     margin-bottom: 20px; 
     border: 1px solid #00264d; 
-} header h1 { 
+} 
+
+header h1 { 
     margin: 0; 
     font-size: 28px; 
 } 
+
 .header-top { 
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
 } 
+
 #navMenu { 
     display: none; 
 } 
+
 #navMenu.nav-open { 
     display: flex; 
     flex-direction: column; 
     margin-top: 16px; 
 } 
+
 .nav-toggle { 
     display: block; 
     border: none; 
@@ -40,6 +48,7 @@ header {
     line-height: 1; 
     cursor: pointer; 
 } 
+
 /* Navigasi */ 
 nav ul { 
     display: flex; 
@@ -50,28 +59,33 @@ nav ul {
     margin: 0; 
     padding: 0; 
     list-style: none; 
-} 
+}
+
 nav a { 
     color: #ffffff; 
     font-weight: bold; 
     text-decoration: none; 
 }
+
 /* Layout utama */ 
 main { 
     display: grid; 
     grid-template-columns: 1fr; 
     gap: 16px; 
 } 
+
 section { 
     width: 100%; 
 } 
+
 /* Bagian Home */ 
 #home { 
     background-color: #ffffff; 
     border: 1px solid #d0d7de; 
     padding: 20px; 
     margin: 0; 
-} 
+}
+
 #home h2 { 
     color: #003366; 
     border-bottom: 2px solid #003366; 
@@ -83,6 +97,7 @@ section {
     line-height: 1.6; 
     margin: 0 0 16px; 
 } 
+
 #home img { 
     display: block; 
     width: 240px; 
@@ -90,13 +105,15 @@ section {
     height: auto; 
     border: 1px solid #cbd5e1; 
 } 
+
 /* Bagian Tentang */ 
 #about { 
     background-color: #ffffff; 
     border: 1px solid #d0d7de; 
     padding: 20px; 
     margin: 0; 
-} 
+}
+
 #about h2 { 
     color: #003366; 
     border-bottom: 2px solid #003366; 
@@ -104,22 +121,26 @@ section {
     margin-top: 0; 
     margin-bottom: 16px; 
 } 
+
 #about h3 { 
     color: #1f4e78; 
     margin-bottom: 6px; 
 } 
+
 #about p { 
     margin: 6px 0; 
     padding: 6px 0; 
     border-bottom: 1px solid #e6e6e6; 
     line-height: 1.5; 
 } 
+
 #about ol {
     color: #333333; 
     margin: 8px 0; 
     padding: 8px 24px; 
     border: 1px solid #e6e6e6; 
 } 
+
 /* Bagian Kontak */ 
 #contact { 
     background-color: #f8fafc; 
@@ -127,6 +148,7 @@ section {
     padding: 20px; 
     margin: 0; 
 } 
+
 #contact h2 { 
     color: #003366; 
     border-bottom: 2px solid #003366; 
@@ -134,13 +156,16 @@ section {
     margin-top: 0; 
     margin-bottom: 16px; 
 } 
+
 .form-group { 
     margin: 12px 0; 
 } 
+
 #contact label { 
     color: #1f2937; 
     font-weight: bold; 
 } 
+
 .input-form { 
     width: 100%; 
     max-width: 100%; 
@@ -152,10 +177,12 @@ section {
     margin: 4px 0; 
     border: 1px solid #94a3b8; 
 } 
+
 #contact textarea { 
     min-height: 80px; 
     resize: vertical; 
-} 
+}
+
 #contact button { 
     background-color: #003366; 
     color: #ffffff; 
@@ -165,6 +192,7 @@ section {
     border: 1px solid #003366; 
     cursor: pointer; 
 } 
+
 /* Footer */ 
 footer { 
     background-color: #003366; 
@@ -173,16 +201,20 @@ footer {
     padding: 14px 20px; 
     margin-top: 20px; 
     border: 1px solid #00264d; 
-} 
+}
+
 footer p { 
     margin: 0;
 } 
+
 .form-feedback-error { 
     color: #c62828; 
 } 
+
 .form-feedback-success { 
     color: #2e7d32; 
 } 
+
 /* Layout untuk viewport yang lebih lebar */ 
 @media (min-width: 768px) { 
     nav { 
@@ -194,16 +226,20 @@ footer p {
         align-items: center; 
         gap: 16px; 
     } 
+
     main { 
         grid-template-columns: 1fr 1fr; 
     } 
+
     #contact { 
         grid-column: 1 / -1; 
     } 
+
     #navMenu { 
         display: flex; 
         flex-direction: row; 
     } 
+    
     .nav-toggle { 
         display: none; 
     } 
