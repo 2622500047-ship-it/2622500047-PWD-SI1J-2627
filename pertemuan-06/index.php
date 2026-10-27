@@ -1,3 +1,15 @@
+<?php 
+// P6: PHP dasar dan pemrograman sisi peladen 
+// Bagian 1: Variabel dan konstanta 
+$nim = "2622500047"; 
+$namaMahasiswa = "Muhammad Rifky"; 
+$programStudi = "SI"; 
+$tahunAkademik = "2026/2027"; 
+$semester = 1; 
+$ipk = 0; 
+$statusAktif = true; 
+$catatanTambahan = null; ?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -8,6 +20,21 @@
     
 </head>
 <body>
+    
+    <?php 
+    // Pengujian awal eksekusi PHP. 
+    echo "PHP berhasil dijalankan."; 
+    ?>
+
+    <?php 
+    // Komentar satu baris. 
+    print "Keluaran menggunakan print."; 
+    /* 
+    Komentar beberapa baris. 
+    Komentar ini tidak ditampilkan pada halaman. 
+    */ 
+    ?>
+
     <header>
         <h1>Profil Mahasiswa</h1>
         <nav>
