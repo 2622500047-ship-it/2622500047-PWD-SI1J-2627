@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # pertemuan-06
+=======
+>>>>>>> cc6423fbf6367fcda4cf48c4219ac31d41c9f918
 P6 - PHP Dasar dan Pemrograman Sisi Peladen
 # Pertemuan 6 - PHP Dasar dan Pemrograman Sisi Peladen
 
